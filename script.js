@@ -6,17 +6,24 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "A inteligência artificial (IA) vai revolucionar positivamente diversas indústrias?",
         alternativas: [
             "Alternativa 1",
             "Alternativa 2"
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "A inteligência artificial pode ser uma ferramenta ética e responsável?",
         alternativas: [
             "Alternativa 1",
             "Alternativa 2"
         ]
-    }
+    },
+    {
+        enunciado: "A inteligência artificial vai superar a inteligência humana em todos os aspectos?",
+        alternativas: [
+        "Alternativa 1",
+        "Alternativa 2"
+        ]
+        }
 ];
