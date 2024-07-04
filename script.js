@@ -25,7 +25,6 @@ const perguntas = [
         "Alternativa 1",
         "Alternativa 2"
         ]
-        }
+        },
 ];
-caixaPerguntas.textContent = "Eu consigo alterar sim!!
-"
+caixaPerguntas.textContent = "Eu consigo alterar sim!!"
