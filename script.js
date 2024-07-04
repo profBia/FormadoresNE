@@ -27,3 +27,5 @@ const perguntas = [
         ]
         }
 ];
+caixaPerguntas.textContent = "Eu consigo alterar sim!!
+"
