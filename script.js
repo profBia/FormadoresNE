@@ -27,4 +27,8 @@ const perguntas = [
         ]
         },
 ];
-caixaPerguntas.textContent = "Eu consigo alterar sim!!";
+
+Funcion mostraPergunta (){
+caixaPerguntas.textContent = perguntas[0].enunciado;
+}
+mostrarPergunta ();
