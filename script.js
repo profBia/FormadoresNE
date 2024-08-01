@@ -25,13 +25,17 @@ let atual = 0;
 let perguntaAtual;
 
 function mostraPergunta(){
-    
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntas[atual].enunciado;
+}
+
 function mostraAlternativas(){
-for(const alternativa of perguntaAtual.alternativas){
-const botaoAlternativas = document.createElement("button");
-botaoAlternativas.textContent = alternativa;
-caixaAlternativas.appendChild(botaoAlternativas);
-}
+    for(const alternativa of perguntaAtual.alternativas){
+    const botaoAlternativas = document.createElement("button");
+    botaoAlternativas.textContent = alternativa;
+    caixaAlternativas.appendChild(botaoAlternativas);
+    }
+    caixaAlternativas.textContent = "";
+    }
+    /*código posterior ocultado*/
 mostraPergunta();
-}
-/*código posterior ocultado*/
